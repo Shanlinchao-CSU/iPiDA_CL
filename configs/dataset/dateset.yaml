@@ -1,0 +1,17 @@
+# Common Features
+piRNA_LABEL: piRNA_id:token
+DISEASE_LABEL: disease_id:token
+TIMESTAMP_LABEL: timestamp:float
+RATING_FIELD: rating:float
+piRNA_num: 10149
+disease_num: 19
+
+# Selectively Loading
+load_cols: [piRNA_id:token, disease_id:token, timestamp:float]
+
+# Filtering
+max_piRNA_inter_num: ~
+min_piRNA_inter_num: ~
+max_disease_inter_num: ~
+min_disease_inter_num: ~
+
