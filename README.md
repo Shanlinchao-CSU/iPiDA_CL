@@ -1,4 +1,4 @@
-# iPiDA-CL: A Contrastive Learning Approach for Predicting Potential PiRNA-Disease Associations
+# Unraveling Disease-Associated Piwi-Interacting RNAs with a Contrastive Learning
 In this study, we present iPiDA-CL, identification of piRNA-disease associations based on contrastive learning.  iPiDA-CL calculates Gaussian kernel similarities between piRNA and disease pairs to generate initial embeddings. It then utilizes a parameter-sharing network, incorporating online and target strategies with data augmentation, to establish a contrastive learning framework. This framework generates embeddings for piRNAs and diseases based on association pairs, and employs a cross-prediction method to compute specific association scores.
 # Requirements
 - torch 1.10.1
