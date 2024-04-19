@@ -10,6 +10,7 @@ In our research, we conducted an extensive evaluation and testing of our model u
 
 For a more robust validation of iPiDA-CL's performance, an independent test set was meticulously curated to conduct a comprehensive evaluation of the model's capabilities. A total of 2,489 piRNA-disease association pairs were meticulously collected from relevant literature sources. This independent test set encompassed interactions involving 2,415 distinct piRNAs and 13 distinct diseases.
 
+# Before run the demo
 Since the Gaussian kernel similarity matrix of piRNA and disease is too large, and the generation process is very time-consuming, we separate this process and require users to use util/GIS.py to generate the Gaussian kernel similarity matrix before running the project.The matrix was generated from piRNA-Disease Interaction data.
 # Run the demo
 ```
